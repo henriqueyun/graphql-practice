@@ -1,0 +1,20 @@
+{
+  "name": "graphql-practice",
+  "version": "1.0.0",
+  "description": "First project using graphQL for practicing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/henriqueyun/graphql-practicing"
+  },
+  "keywords": [
+    "graphql",
+    "node",
+    "typescript"
+  ],
+  "author": "henriqueyun",
+  "license": "ISC"
+}
