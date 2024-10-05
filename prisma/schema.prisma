@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Game {
+  id Int @id @default(autoincrement())
+  game String
+  platform String
+  status String
+  lastUpdatedAt DateTime? @default(now())
+  rating Float
+  finalObjective String
+}

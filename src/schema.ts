@@ -6,12 +6,13 @@ const schema = buildSchema(`
         platform: String
         status: String
         lastUpdatedAt: String
-        Rating: Float
+        rating: Float
         finalObjective: String
     }
 
     type Query {
         games: [Game]
+        getGameById(id: Int): Game
     }
 `)
 

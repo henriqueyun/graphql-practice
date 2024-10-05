@@ -7,9 +7,4 @@ export type Game = {
     finalObjective: string;
 }
 
-enum PlayingStatus {
-    ToPlay,
-    Playing,
-    Stopped,
-    Finished
-}
+type PlayingStatus = "To Play" | "Playing" | "Stopped" | "Finished"
