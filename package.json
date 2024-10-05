@@ -4,6 +4,7 @@
   "description": "First project using graphQL for practicing",
   "main": "index.js",
   "scripts": {
+    "start": "tsc && node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
     "typescript"
   ],
   "author": "henriqueyun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.0",
+    "graphql": "^16.9.0",
+    "graphql-http": "^1.22.1",
+    "typescript": "^5.6.2"
+  }
 }
